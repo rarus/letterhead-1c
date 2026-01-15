@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cdfd68e5-b1ff-4606-8d2d-c0f548afb7ef">
+  <producedTypes>
+    <objectType typeId="a930d445-44fa-4929-a821-b118a647d386" valueTypeId="65c01d23-9d8f-4011-8796-73dc82719d2a"/>
+  </producedTypes>
+  <name>ПечатьНаБланках</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печать на бланках</value>
+  </synonym>
+  <comment>Инструмент обеспечивает пакетную печать данных из программ 1С на различных видах типографских носителей (бланки, анкеты и др.).</comment>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="b9c11580-eb85-43df-b025-3f1393404bfa"/>
+  <defaultForm>ExternalDataProcessor.ПечатьНаБланках.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="e3454853-acdd-4256-985b-9e2b302a5c51">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f8f2c3a0-e282-41b2-bb1d-02ef3d9eab75">
+    <name>ОПрограмме</name>
+    <synonym>
+      <key>ru</key>
+      <value>О программе</value>
+    </synonym>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="c1288da5-b943-43fa-8994-0a3f025a66b6">
+    <name>ОбразецБланка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Образец бланка</value>
+    </synonym>
+  </templates>
+  <templates uuid="68955def-7214-4f6d-ae03-2c88bf1a9395">
+    <name>ОбразецДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Образец данных</value>
+    </synonym>
+  </templates>
+</mdclass:ExternalDataProcessor>
